@@ -56,6 +56,7 @@ public class Player : MonoBehaviour {
 			col.gameObject.SetActive(false);
 			puntos++;
 			setCountText();
+			if (puntos==11) {countText.text = "Max Points";}
 		}
 	}
 	
